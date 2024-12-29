@@ -1,42 +1,26 @@
-# INFOTECH PROJECTS
+## Project 1 - Caesar Cipher Algorithm 🔒
 
-Welcome to the INFOTECH Projects repository! 🚀 Here you'll find five innovative projects showcasing a variety of concepts, ranging from cryptography to network analysis. These projects are educational and created with Python. Explore and enhance them for your use cases!
+### Description
 
----
+The Caesar Cipher Algorithm is a simple encryption technique where each letter in the plaintext is shifted a fixed number of places down or up the alphabet. This project allows users to encrypt and decrypt text using the algorithm.
 
-## Table of Contents
+### Features
 
-1. [Caesar Cipher Algorithm](#project-1---caesar-cipher-algorithm)
-2. [Pixel Manipulation for Image Encryption](#project-2---pixel-manipulation-for-image-encryption)
-3. [Password Complexity Checker](#project-3---password-complexity-checker)
-4. [Simple Keylogger](#project-4---simple-keylogger)
-5. [Network Packet Analyzer](#project-5---network-packet-analyzer)
+- **User Input**: Accepts a message and shift value.
+- **Encryption/Decryption**: Performs both operations based on the shift.
+- **Robust for All Inputs**: Handles edge cases effectively.
 
----
-
-## How to Clone the Repository 🖥️
+### Usage
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/infotech-projects.git
-
-# Navigate to the project directory
-cd infotech-projects
-
-# Install required dependencies (if any)
-pip install -r requirements.txt
+# Run the script
+python caesar_cipher.py
 ```
 
-## Requirements 📋
+### Example
 
-- Python 3.6+
-- Required libraries:
-  - `Pillow`
-  - `math`
-  - `pynput`
-  - `scapy`
-- Additional tools for some projects (e.g., `npcap` for the Network Packet Analyzer).
+Input: `HELLO` with a shift of `3`
+
+Output: `KHOOR`
 
 ---
-
-
