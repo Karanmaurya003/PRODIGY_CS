@@ -1,1 +1,1 @@
-[Key.esc]ae[Key.space]lavdya[Key.space]bafh[Key.space]ho[Key.space]haya[Key.space]solve[Key.esc]
+#here all the data of the keystrokes hit by the user will be stored
